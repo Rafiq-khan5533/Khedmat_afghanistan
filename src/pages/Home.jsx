@@ -48,13 +48,13 @@ function Home() {
                                     <FiSearch className='text-[#8290a4] shrink-0' />
                                     <input className='outline-none border-none w-full min-w-0 py-3 px-0' placeholder="Search services..." />
                                 </div>
-                                <select className='border border-(--border) bg-white rounded-md outline-0 text-[#56647a] py-0 px-3 '>
+                                <select className='border border-(--border) bg-white rounded-md outline-0 text-[#56647a] py-2 px-3 '>
                                     <option>All Provinces</option>
                                     <option>Nangarhar</option>
                                     <option>Kabul</option>
                                     <option>Kandahar</option>
                                 </select>
-                                <select className='border border-(--border) bg-white rounded-md outline-0 text-[#56647a] py-0 px-3 '>
+                                <select className='border border-(--border) bg-white rounded-md outline-0 text-[#56647a] py-2 px-3 '>
                                     <option>All Cities</option>
                                     <option>Jalalabad</option>
                                     <option>Kabul</option>
