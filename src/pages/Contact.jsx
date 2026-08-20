@@ -22,21 +22,21 @@ export default function Contact() {
             <section className=" max-w-6xl mx-auto px-6 py-14 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <div className="bg-white rounded-2xl border shadow-sm p-7">
                     <h2 className="text-2xl font-bold mb-6">Contact information</h2>
-                    <div className="space-y-5 text-gray-700">
+                    <div className="space-y-8 text-gray-700">
                         <div>
-                            <p className="font-semibold">Phone</p>
+                            <p className="font-semibold text-(--primary)">Phone</p>
                             <p>+93 788 118 661</p>
                         </div>
                         <div>
-                            <p className="font-semibold">Email</p>
+                            <p className="font-semibold text-(--primary)">Email</p>
                             <p>rk7016029@gmail.com</p>
                         </div>
                         <div>
-                            <p className="font-semibold">Location</p>
+                            <p className="font-semibold text-(--primary)">Location</p>
                             <p>Kama, Nangarhar, Afghanistan</p>
                         </div>
                         <div>
-                            <p className="font-semibold">Support</p>
+                            <p className="font-semibold text-(--primary)">Support</p>
                             <p>We help customers and service providers use the platform.</p>
                         </div>
                     </div>

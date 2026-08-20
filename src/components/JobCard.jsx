@@ -3,10 +3,10 @@ import { FiMapPin, FiClock, FiDollarSign } from "react-icons/fi";
 
 export default function JobCard({ job }) {
   return (
-    <Link to={`/jobs/${job.id}`} className="border border-(--border) bg-white rounded-xl transition duration-200 overflow-hidden p-3.75 flex gap-3">
-      <div className="grid place-items-center w-11 h-11 flex-none basis-11 rounded-[10px] bg-[#edf5ff] text-(--primary) text-[21px]">▣</div>
+    <Link to={`/jobs/${job.id}`} className="border border-(--border) bg-white rounded-xl transition duration-200 overflow-hidden p-3.75 flex gap-3  hover:-translate-y-1">
+      <div className="grid place-items-center w-11 h-11 flex-none basis-11 rounded-[10px] bg-[#edf5ff] text-(--primary) text-[21px] ">▣</div>
       <div className="min-w-0 flex-1">
-        <div className=" flex justify-between gap-2 ">
+        <div className="w-full flex flex-row justify-between gap-2 ">
           <span className="inline-flex py-0.75 px-1.5 rounded-[5px] bg-[#eaf3ff] text-(--primary) text-[10px] font-extrabold ">New</span>
           <span className="text-(--muted) text-[11px] ">{job.posted}</span>
         </div>

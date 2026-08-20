@@ -16,25 +16,25 @@ export default function Jobs() {
                     <p className="text-(--muted) m-0">Find jobs posted by people and businesses across Afghanistan.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-5 items-start">
-                    <aside className="filter-panel border border-(--border) bg-white rounded-xl p-4 ">
-                        <h3 className="m-[0 0 12px] text-[14px]">Filter Jobs</h3>
+                    <aside className=" border border-(--border) bg-white rounded-xl p-4  ">
+                        <h3 className="mb-4 text-[14px]">Filter Jobs</h3>
                         <label className="block m-[17px 0 6px ] text-[11px] font-extrabold text-[#55637a]">Keyword</label>
                         <input placeholder="Search jobs..." value={query} onChange={e => setQuery(e.target.value)} className="w-full p-2.75 border border-(--border) rounded-lg outline-0 bg-white" />
-                        <label className="block m-[17px 0 6px ] text-[11px] font-extrabold text-[#55637a]">Category</label>
+                        <label className="block mt-4.25 mb-1.5 text-[11px] font-extrabold text-[#55637a]">Category</label>
                         <select className="w-full p-2.75 border border-(--border) rounded-lg outline-0 bg-white">
                             <option>All Categories</option>
                             <option>Graphic Design</option>
                             <option>Web Development</option>
                             <option>Data Analysis</option>
                         </select >
-                        <label className="block m-[17px 0 6px ] text-[11px] font-extrabold text-[#55637a]">Province</label>
+                        <label className="block mt-4.25 mb-1.5 text-[11px] font-extrabold text-[#55637a]">Province</label>
                         <select className="w-full p-2.75 border border-(--border) rounded-lg outline-0 bg-white">
-                            <option className="w-100">All Provinces</option>
-                            <option className="w-100">Kabul</option>
-                            <option className="w-100">Nangarhar</option>
-                            <option className="w-100">Herat</option>
+                            <option className="">All Provinces</option>
+                            <option className="">Kabul</option>
+                            <option className="">Nangarhar</option>
+                            <option className="">Herat</option>
                         </select>
-                        <label className="block m-[17px 0 6px ] text-[11px] font-extrabold text-[#55637a]">Budget</label>
+                        <label className="block mt-4.25 mb-1.5 text-[11px] font-extrabold text-[#55637a]">Budget</label>
                         <select className="w-full p-2.75 border border-(--border) rounded-lg outline-0 bg-white">
                             <option>All Budgets</option>
                             <option>Under $50</option>
@@ -43,7 +43,7 @@ export default function Jobs() {
                         </select>
                     </aside>
                     <section className="grid gap-2.5">
-                        {filtered.map(job => <JobCard key={job.id} job={job} />)}
+                        {filtered.map(job => <JobCard  key={job.id} job={job} />)}
                     </section>
                 </div>
             </div>

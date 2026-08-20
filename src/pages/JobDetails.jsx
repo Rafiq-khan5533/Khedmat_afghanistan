@@ -12,9 +12,9 @@ export default function JobDetails() {
             <div className="w-[calc(100%-32px)] max-w-295 mx-auto py-20">
                 <Link to="/jobs" className="inline-flex items-center gap-1.5 t text-blue-600 text-xs font-extrabold mb-4.5 hover:underline">
                 <FiArrowLeft />Back to jobs</Link>
-                <div className="grid grid-cols-[1fr_320px] gap-5 items-start">
+                <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-5 items-start">
                     <section className="p-7 bg-white border border-(--border) rounded-xl transition duration-200 overflow-hidden shadow-lg hover:transition hovere:duration-200 hover:translate-y-0.5">
-                        <div className="detail-title-row flex justify-between gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between  gap-5">
                             <div className="">
                                 <span className="inline-flex px-1.75 py-1 rounded-[5px] bg-[#eaf3ff] text-(--primary) text-[9px] font-black">New</span>
                                 <h1 className="text-[36px] mt-[13px  mb-2]" >{job.title}</h1>
