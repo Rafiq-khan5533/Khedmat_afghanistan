@@ -64,10 +64,10 @@ function Home() {
 
                             <div className="flex flex-wrap items-center gap-1 mt-3 text-[12px] text-[#66748a]">
                                 <span>Popular searches:</span>
-                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Computer Repair</button>
-                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Electrician</button>
+                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Web Developement</button>
+                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Software Engineering</button>
                                 <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Graphic Design</button>
-                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Construction</button>
+                                <button className='border border-(--border) rounded-full bg-white px-2.25 py-1.25 text-[11px]'>Data Dnalysis</button>
                             </div>
                         </div>
                     </div>
