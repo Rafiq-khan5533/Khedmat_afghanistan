@@ -1,5 +1,5 @@
 import ataullah from "../assets/images/Ataullah.jpeg";
-import zahidullah from "../assets/images";
+import zahidullah from "../assets/images/Zahidullah.jpg";
 import yaseen from "../assets/images/Yaseen.jpg";
 import qadir from "../assets/images/Qadir.jpg";
 import khan from "../assets/images/Khan.png";
