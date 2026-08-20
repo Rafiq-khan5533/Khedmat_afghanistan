@@ -1,8 +1,8 @@
-import ataullah from "../assets/Imagess/ataullah.jpeg";
-import zahidullah from "../assets/Imagess/zahidullah.jpg";
+import ataullah from "../assets/Imagess/Ataullah.jpeg";
+import zahidullah from "../assets/Imagess/Zahidullah.jpg";
 import yaseen from "../assets/Imagess/Yaseen.jpg";
 import qadir from "../assets/Imagess/Qadir.jpg";
-import khan from "../assets/Imagess/khan.png";
+import khan from "../assets/Imagess/Khan.png";
 
 export const categories = [
   { id: 1, name: "Web Development", icon: "🌐", count: 120 },
