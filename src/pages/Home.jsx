@@ -101,7 +101,7 @@ function Home() {
                 <section className=" px-0 py-26.5">
                     <div className=" mx-auto w-[calc(100%-32px)] max-w-295">
                         <SectionTitle title="Latest Jobs" action={<Link to="/jobs" className="text-(--primary) text-sm font-extrabold inline-flex items-center gap-1.25 border-0 bg-none ">View all jobs <FiArrowRight /></Link>} />
-                        <div className="job-grid grid grid-cols-4  gap-4 ">
+                        <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4   gap-4 ">
                             {jobs.map(job => <JobCard key={job.id} job={job} />)}
                         </div>
                     </div>
