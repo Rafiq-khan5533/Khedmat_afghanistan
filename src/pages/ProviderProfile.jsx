@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { FiArrowLeft, FiCheck, FiCheckCircle, FiMail, FiMapPin, FiMessageSquare, FiPhone, FiStar } from "react-icons/fi";
-import { providers, services, providersDetails } from "../data/mock";
+import { providers, services, providersDetails } from "../Data/Mymock";
 
 export default function ProviderProfile() {
   const { id } = useParams();

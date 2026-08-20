@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import ProviderCard from "../components/ProviderCard";
-import { providers } from "../data/mock";
+import { providers } from "../Data/Mymock";
 
 export default function Providers() {
   const [query, setQuery] = useState("");

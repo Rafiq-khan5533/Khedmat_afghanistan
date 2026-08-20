@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { FiArrowLeft, FiBriefcase, FiClock, FiDollarSign, FiMapPin } from "react-icons/fi";
-import { jobs } from "../data/mock";
+import { jobs } from "../Data/Mymock";
 
 import "../App.css"
 export default function JobDetails() {

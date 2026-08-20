@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import JobCard from "../components/JobCard";
-import { jobs } from "../data/mock";
+import { jobs } from "../Data/Mymock";
 
 export default function Jobs() {
     const [query, setQuery] = useState("");

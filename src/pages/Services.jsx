@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { FiSearch, FiFilter } from "react-icons/fi";
 import ServiceCard from "../components/ServiceCard";
-import { categories, services } from "../data/mock";
+import { categories, services } from "../Data/Mymock";
 
 export default function Services() {
   const [query, setQuery] = useState("");

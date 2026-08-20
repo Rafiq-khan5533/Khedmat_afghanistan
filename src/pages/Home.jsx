@@ -5,7 +5,7 @@ import SectionTitle from "../components/SectionTitle";
 import ServiceCard from "../components/ServiceCard";
 import ProviderCard from "../components/ProviderCard";
 import JobCard from "../components/JobCard";
-import { categories, providers, services, jobs } from "../data/mock";
+import { categories, providers, services, jobs } from "../Data/Mymock";
 import { Link } from "react-router-dom";
 
 
