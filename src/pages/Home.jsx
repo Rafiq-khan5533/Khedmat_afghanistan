@@ -79,10 +79,12 @@ function Home() {
                         <SectionTitle title="Popular Categories" action={<Link to="/services" className="inline-flex text-(--primary) text-[13px] font-extrabold items-center bg-none border-0 gap-1">View all categories <FiArrowRight /></Link>} />
                         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
                             {categories.map(category => (
-                                <Link className=" 'category-card'  px-3.25 py-5 border border-(--border) rounded-xl text-center bg-white/80 transition-[.2s] hover:shadow-[0_12px_30px_rgba(20,40,70,.08)] hover:-translate-y-0.5" to="/services" key={category.id}>
-                                    <span className='text-[30px]'>{category.icon}</span>
-                                    <h3 className='text-[13px] m-[12px 0 5px]'>{category.name}</h3>
-                                    <small className='text-(--muted) text-[11px]'>{category.count}+ Providers</small>
+                                <Link className="overflow-hidden border border-(--border) rounded-xl text-center bg-white/80 transition-[.2s] hover:shadow-[0_12px_30px_rgba(20,40,70,.08)] hover:-translate-y-0.5" to="/services" key={category.id}>
+                                    <img className='block h-40 w-full object-cover' src={category.image} alt={category.name} />
+                                    <div className='p-4'>
+                                        <h3 className='text-[13px] m-[12px 0 5px]'>{category.name}</h3>
+                                        <small className='text-(--muted) text-[11px]'>{category.count}+ Providers</small>
+                                    </div>
                                 </Link>
                             ))}
                         </div>
@@ -93,7 +95,7 @@ function Home() {
                     <div className="mx-auto w-[calc(100%-32px)] max-w-295 min-h-126.25">
                         <SectionTitle title="Featured Providers" action={<Link to="/providers" className="text-link text-(--primary) text-[13px] font-extrabold inline-flex items-center gap-1.25 border-0 bg-none  ">View all providers <FiArrowRight /></Link>} />
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.75">
-                            {providers.slice(0,4).map(provider => <ProviderCard className ="" key={provider.id} provider={provider} />)}
+                            {providers.slice(0, 4).map(provider => <ProviderCard className="" key={provider.id} provider={provider} />)}
                         </div>
                     </div>
                 </section>
@@ -107,7 +109,7 @@ function Home() {
                     </div>
                 </section>
 
-                <section  className="py-16.5 px-0 bg-[#fbfcfe]">
+                <section className="py-16.5 px-0 bg-[#fbfcfe]">
                     <div className="mx-auto w-[calc(100%-32px)] max-w-295">
 
                         <SectionTitle

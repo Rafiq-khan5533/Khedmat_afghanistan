@@ -3,8 +3,9 @@ import { FiMapPin, FiStar } from "react-icons/fi";
 
 export default function ServiceCard({ service }) {
   return (
-    <Link to={`/services/${service.id}`} className="border border-(--border) bg-white/90 rounded-xl  service-card">
-      <div className="service-icon">{service.icon}</div>
+    <Link to={`/services/${service.id}`} className="overflow-hidden rounded-xl bg-white border border-(--border)  block w-full  hover:transition duration-200 hover:-translate-y-0.5">
+      {/* <div className="service-icon">{service}</div> */}
+      <img className="block h-40 w-full object-cover" src={service.image} alt="" />
       <div className="p-3.75">
         <h3 className="m-0 mb-1.25 text-[15px]">{service.title}</h3>
         <span className="text-(--muted) text-[11px]">{service.category}</span>

@@ -5,14 +5,14 @@ import qadir from "../assets/images/Qadir.jpg";
 import khan from "../assets/images/Khan.png";
 
 export const categories = [
-  { id: 1, name: "Web Development", icon: "🌐", count: 120 },
-  { id: 2, name: "Software Engineering", icon: "💻", count: 150 },
-  { id: 3, name: "Graphic Design", icon: "🎨", count: 200 },
-  { id: 4, name: "Mobile App Development", icon: "📱", count: 90 },
-  { id: 5, name: "IT & Networking", icon: "🖥️", count: 85 },
-  { id: 6, name: "Digital Marketing", icon: "📊", count: 70 },
-  { id: 7, name: "Content Writing", icon: "✍️", count: 65 },
-  { id: 8, name: "Data & Analytics", icon: "📊", count: 55 },
+  { id: 1, name: "Web Development", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1n5YlAeUjO0JG6i71nuzimCGusBGTxFx_G7Spad7-AqniPaqz2aSGHvg&s", count: 120 },
+  { id: 2, name: "Software Engineering", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS47IL3QKezQZSvY7_ZYC1fDRFi032p7dfQwKpNiD7mng&s=10", count: 150 },
+  { id: 3, name: "Graphic Design", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjJGlIL3WPGA103gnZsYWNmlt8OnA8sTfDiOV6ql3yg&s=10", count: 200 },
+  { id: 4, name: "Mobile App Development", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKng5GmKTTbFNqwrQodi-zrxhrooxAAUNu8GKorzbtg&s=10", count: 90 },
+  { id: 5, name: "IT & Networking", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyncnhUX7omH44TH8NAohT4XdLs3SJ7feS3dlgTeZ9TA&s=10", count: 85 },
+  { id: 6, name: "Digital Marketing", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbbgHHydj3TScvMdPOG1S3SfiPE6AQJap5DVFYaHuJbA&s=10", count: 70 },
+  { id: 7, name: "Content Writing", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gPICtkbd2a57_hd0OFAg2TGAoHBuJYUR3yuqPEaSrw&s=10", count: 65 },
+  { id: 8, name: "Data & Analytics", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdeaSja2GNdCcmNUxbw6-TAf_3RqX5_A0gmRNcAi9d1g&s=10", count: 55 },
 ];
 export const providers = [
   {
@@ -106,7 +106,7 @@ export const services = [
     price: "$50",
     rating: 4.8,
     reviews: 120,
-    icon: "🌐",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1n5YlAeUjO0JG6i71nuzimCGusBGTxFx_G7Spad7-AqniPaqz2aSGHvg&s",
   },
   {
     id: 2,
@@ -116,7 +116,7 @@ export const services = [
     price: "$25",
     rating: 4.7,
     reviews: 80,
-    icon: "💻",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyncnhUX7omH44TH8NAohT4XdLs3SJ7feS3dlgTeZ9TA&s=10",
   },
   {
     id: 3,
@@ -126,7 +126,7 @@ export const services = [
     price: "$100",
     rating: 4.9,
     reviews: 95,
-    icon: "👨‍💻",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS47IL3QKezQZSvY7_ZYC1fDRFi032p7dfQwKpNiD7mng&s=10",
   },
   {
     id: 4,
@@ -136,7 +136,7 @@ export const services = [
     price: "$30",
     rating: 4.9,
     reviews: 110,
-    icon: "🎨",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjJGlIL3WPGA103gnZsYWNmlt8OnA8sTfDiOV6ql3yg&s=10",
   },
   {
     id: 5,
@@ -146,7 +146,7 @@ export const services = [
     price: "$80",
     rating: 4.6,
     reviews: 65,
-    icon: "📱",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKng5GmKTTbFNqwrQodi-zrxhrooxAAUNu8GKorzbtg&s=10",
   },
   {
     id: 6,
@@ -156,7 +156,7 @@ export const services = [
     price: "$40",
     rating: 4.7,
     reviews: 76,
-    icon: "📈",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbbgHHydj3TScvMdPOG1S3SfiPE6AQJap5DVFYaHuJbA&s=10",
   },
   {
     id: 7,
@@ -166,7 +166,7 @@ export const services = [
     price: "$20",
     rating: 4.5,
     reviews: 52,
-    icon: "✍️",
+    image :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gPICtkbd2a57_hd0OFAg2TGAoHBuJYUR3yuqPEaSrw&s=10",
   },
   {
     id: 8,
@@ -176,7 +176,7 @@ export const services = [
     price: "$60",
     rating: 4.8,
     reviews: 48,
-    icon: "📊",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdeaSja2GNdCcmNUxbw6-TAf_3RqX5_A0gmRNcAi9d1g&s=10",
   },
 ];
 

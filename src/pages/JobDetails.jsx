@@ -10,7 +10,7 @@ export default function JobDetails() {
     return (
         <main className="p-[55px 0 75px ] min-h-[65vh] bg-[#fbfcfe]">
             <div className="w-[calc(100%-32px)] max-w-295 mx-auto py-20">
-                <Link to="/jobs" className="inline-flex items-center gap-1.5 t text-blue-600 text-xs font-extrabold mb-4.5 hover:underline">
+                <Link to="/jobs" className="inline-flex items-center gap-1.5 t text-blue-600! text-xs font-extrabold mb-4.5 hover:underline">
                 <FiArrowLeft />Back to jobs</Link>
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-5 items-start">
                     <section className="p-7 bg-white border border-(--border) rounded-xl transition duration-200 overflow-hidden shadow-lg hover:transition hovere:duration-200 hover:translate-y-0.5">

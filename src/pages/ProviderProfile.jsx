@@ -10,7 +10,7 @@ export default function ProviderProfile() {
   return (
     <main className="pt-13.75 pb-17.75 min-h-[65vh] bg-[#fbfcfe]">
       <div className="mx-auto w-[calc(100%-32px)] max-w-295">
-        <Link to="/providers" className=" inline-flex items-center gap-1.5 text-(--primary) text-[12px] font-extrabold mb-4.5"><FiArrowLeft /> Providers</Link>
+        <Link to="/providers" className=" inline-flex items-center gap-1.5 text-(--primary)! text-[12px] font-extrabold mb-4.5"><FiArrowLeft /> Providers</Link>
         <div className="p-6.25 border border-(--border) bg-white rounded-xl transition duration-200 overflow-hidden ">
           <div className="grid grid-cols-[85px_1fr] md:grid-cols-[85px_1fr_auto] gap-4.5 items-center">
             <img className="w-21.25  h-21.25 rounded-full object-cover" src={provider.image} alt={provider.name} />
